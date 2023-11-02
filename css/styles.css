@@ -594,7 +594,7 @@ header>.container {
 
 .footer-search-container {
   display: flex;
-
+  gap: 24px;
 }
 
 .footer-search {
