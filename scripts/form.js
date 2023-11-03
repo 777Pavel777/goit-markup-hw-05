@@ -1,7 +1,6 @@
 const MODAL_ACTIVE_CLASS_NAME = 'is-open';
 
 const formModal = document.querySelector('#form-modal');
-const successModal = document.querySelector('#success-modal');
 const form = document.querySelector('#form');
 
 const openFormModalBtn = document.querySelector('#open-form-modal-btn');
