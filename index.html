@@ -59,7 +59,7 @@
     <section class="title">
       <div class="container">
         <h1 class="title-text">Effective Solutions for Your Business</h1>
-        <button type="button" class="title-btn">Order Service</button>
+        <button type="button" class="title-btn" id="open-form-modal-btn">Order Service</button>
       </div>
     </section>
 
@@ -558,7 +558,7 @@
 
       <p class="modal-title">Leave your contacts and we will call you back</p>
 
-      <form class="modal-form">
+      <form class="modal-form" id="form">
         <div class="modal-review-form-field">
           <label class="modal-stroke" for="user-name">Name</label>
           <div class="modal-stroke-wrapper">
@@ -620,10 +620,11 @@
           </label>
 
         </div>
-        <button class="modal-btn" type="submit">Send</button>
+        <button class="modal-btn" type="submit" id="launch-btn">Send</button>
       </form>
     </div>
   </div>
+  <script src="./scripts/form.js"></script>
 </body>
 
 </html>
